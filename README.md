@@ -1,2 +1,2 @@
-# esimkowitz.github.io
-Personal GitHub Page
+# simkowitz.dev
+Personal site
