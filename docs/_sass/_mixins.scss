@@ -1,6 +1,6 @@
 @mixin header {
     color: var(--fg-color);
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     margin-top:20px;
@@ -21,12 +21,13 @@
 }
 
 @mixin sub-header {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700; 
     color: var(--fg-color);
 }
 
 @mixin body-text {
     color: var(--fg-color-body);
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
