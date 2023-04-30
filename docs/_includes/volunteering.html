@@ -11,7 +11,7 @@
                 {{vol.company}}
                 <span class="time">{{vol.time}}</span>
             </div>
-            <div class="details">{{vol.details}}</div>    
+            <div class="details">{{vol.details | markdownify}}</div>    
         </div>
         
     {% endfor %}

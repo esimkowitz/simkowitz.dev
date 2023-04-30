@@ -9,7 +9,7 @@
                     {{p.title}}
                 </a>
             </span>
-            <span class="details">- {{p.details}}</span>
+            <span class="details">- {{p.details | markdownify}}</span>
         </div>
     {% endfor %}
 </section>

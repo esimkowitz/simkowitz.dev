@@ -3,7 +3,7 @@ support_dark_mode: true
 
 # Sidebar
 contact:
-  email: esimkowitz@wustl.edu
+  email:
   github: esimkowitz
   linkedin: esimkowitz
   phone: 
@@ -39,6 +39,7 @@ profile: |
   and developer productivity, but he picks up new skills quickly and is eager about all areas, so long as 
   there are challenging problems to solve! Evan is passionate about building lasting and sustainable engineering 
   cultures, as well as nurturing and growing the next generation of talent through mentorship and recruiting efforts.
+  
   Currently, Evan is building a distributed systems architecture to power a new applications platform that will 
   define the next generation of Microsoft productivity solutions. He works with a growing team of engineers and PMs 
   to ensure they have the capacity and resources to build dozens of microservices that meet the needs of many 
