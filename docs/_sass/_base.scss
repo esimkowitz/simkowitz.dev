@@ -1,11 +1,11 @@
 * {
     font-family: 'Helvetica', 'Arial', sans-serif;
     line-height: 1.5;
-    text-align: justify;
 }
 
 body {
     background-color: var(--bg-color);
+    text-align: justify;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
         display: grid;
         grid-template-columns: 2fr 5fr;
         .sidebar {
+            text-align: initial;
             margin-top: 20px;
             margin-right: 20px;
         }
