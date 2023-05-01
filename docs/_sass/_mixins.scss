@@ -39,6 +39,7 @@
         @include body-text;
         &:hover {
             text-decoration: underline;
+            text-decoration-color: var(--fg-color-body);
         }
     }
 }
