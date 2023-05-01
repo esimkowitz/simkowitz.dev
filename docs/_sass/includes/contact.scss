@@ -11,14 +11,6 @@
             display: inline-block;
             color: var(--fg-color);
         }
-        a {
-            text-decoration: none;
-            padding-top: 4px;
-            padding-left: 4px;
-            @include body-text;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+        @include body-link;
     }
 }
