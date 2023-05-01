@@ -5,14 +5,19 @@
     --fg-color-dark: #023b5b;
     --fg-color-body: #5e6369;
     --fg-color-title-sm: #688293;
-
+    --fg-color-link: #00629b;
+    --fg-color-link-hover: #00629bc7;
 }
 
-[data-theme='dark'] {
-    --bg-color: #28343b;
-    --bg-color-cv: #1b262c;
-    --fg-color: #3282b8;
-    --fg-color-dark: #3282b8;
-    --fg-color-body: rgba(187,225,250,0.75);
-    --fg-color-title-sm: #688293;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #28343b;
+        --bg-color-cv: #1b262c;
+        --fg-color: #3282b8;
+        --fg-color-dark: #3282b8;
+        --fg-color-body: rgba(187,225,250,0.75);
+        --fg-color-title-sm: #688293;
+        --fg-color-link: #3282b8;
+        --fg-color-link-hover: #3282b8ca;
+    }
 }
