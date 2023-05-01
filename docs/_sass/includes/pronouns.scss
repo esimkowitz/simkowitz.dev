@@ -1,0 +1,9 @@
+.pronouns {
+    margin-bottom: 20px;
+    .title {
+        @include sub-header;
+    }
+    .pronoun-list {
+        @include body-text;
+    }
+}
