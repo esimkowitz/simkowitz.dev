@@ -1,0 +1,13 @@
+.footer {
+    .copyright {
+        @include body-text;
+
+        a:link, a:visited {
+            text-decoration: none;
+            color: #03619C
+        }
+        a:hover {
+            color: #03619cc5
+        }
+    }
+}
