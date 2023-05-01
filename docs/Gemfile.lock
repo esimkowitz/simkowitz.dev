@@ -267,7 +267,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 228)
-  jekyll-minifier (= 0.1.10)
+  jekyll-minifier (~> 0.1.10)
+  jekyll-sitemap (~> 1.4.0)
   webrick (~> 1.8)
 
 BUNDLED WITH

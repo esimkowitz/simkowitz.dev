@@ -1,0 +1,9 @@
+{% assign pronouns = site.data.data.pronouns %}
+{% if pronouns %}
+<section class="pronouns">
+    <div class="title">Pronouns</div>
+    <div class="pronoun-list">
+        {% for pronoun in pronouns %}{{pronoun}}{% unless forloop.last %}/{% endunless %}{% endfor %}
+    </div>
+</section>
+{% endif %}

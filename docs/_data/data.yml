@@ -1,4 +1,5 @@
 name: Evan Simkowitz
+pronouns: he/him
 support_dark_mode: true
 
 # Sidebar
@@ -10,6 +11,11 @@ contact:
   gitlab: 
   twitter: 
 
+pronouns:
+  - he
+  - him
+  - his
+
 languages:
   - idiom: English
 
@@ -19,18 +25,37 @@ education:
     university: Washington University in St. Louis
 
 skills:
-  - category: Backend
+  - category: Programming
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - .NET/C#
+      - Python
+      - C/C++
+      - Java
+      - Javascript
+      - Powershell
+      - Bash
+  - category: Distributed systems
     skill:
       - Docker
-      - Kubernetes 
+      - Kubernetes
+      - Azure/AWS
+      - Network security
+      - Live-site experience and root-cause analyses
+  - category: DevOps
+    skill:
+      - CI/CD pipelines
+      - Build scripting
+      - Git
+      - Security and privacy compliance
+      - Monitoring and alerting
+  - category: Soft
+    skill:
+      - Technical leadership
+      - Project management
+      - Technical education
+      - Addressing customer concerns
+      - Recruiting
+      - Mentorship
 
 # Profile
 profile: |
@@ -47,29 +72,62 @@ profile: |
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Software Engineer II
+    time: 2021 - Present
+    company: Microsoft - Microsoft 365 Platform
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      * Day one member, prototyped initial service architecture for new application platform
+      * Lead the architecture/infrastructure workstream through cluster buildout and integration of a dozen microservices
+      * Fill in feature gaps in network security and build/deployment systems using off-the-shelf, open-source components
+      * Define live-site procedures, perform security and privacy assessments, define priorities for org-wide k8s and Linux development
+      * Recruit and interview prospective hires, mentor new hires and interns
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      .NET, Kubernetes, Docker, Network security, Project management, CI/CD, Azure
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Software Engineer
+    time: 2019 - 2021
+    company: Microsoft - Azure IoT Hub
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      * Investigate and address gaps in our service reliability and alerting and develop solutions to address them
+      * Work across Microsoft to find opportunities to improve our development lifecycle and customer support experience
+      * Perform live-site duties and investigate failures across a rapidly expanding service
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      .NET, Javascript, Monitoring/alerting, Service Fabric, CI/CD
+
+  - role: Reasearch Assistant
+    time: 2017 - 2018
+    company: Washington University in St. Louis - Cyber-Physical Systems Laboratory
+    details: |
+      Developed the following for a multi-year research grant studying post-surgery infection rates in lung transplant patients:
+      * Design the IT infrastructure and Android application to support data collection
+      * Automate regression analysis on home spirometry data to identify post-surgery infections
+      
+      Developed the following for a study on elderly patient fall risks in nursing homes:
+      * a scalable cloud infrastructure for receiving and storing wearable sensor data
+      * an Android Wear app to collect sensor data
+      * a portal for viewing data and insights
+    technologies_used: |
+      AWS, Python, Android, Java, Sensor analysis, Data science
+
+  - role: Head Teaching Assistant
+    time: 2016 - 2018
+    company: Washington University in St. Louis
+    details: |
+      * Coordinate the schedules and hiring of 15+ TAs, host weekly meetings with TAs to train them on new material, how to be effective aids to students, etc.
+      * Oversee the lab component of a course with 150+ enrolled students
+      * Assist to review and grade students' weekly assignments, compile two weekly quizzes, answer student questions
+      * Gather feedback from past TAs and students to improve the instruction of designing embedded systems with Arduino and Java
+    technologies_used: |
+      Technical education, Project management, C/C++, Arduino, Python, Scripting
+
+  - role: Software Engineering Intern
+    time: 2018
+    company: Microsoft - Corporate Functions Engineering - Corporate, External, & Legal Affairs
+    details: |
+      * Improve the experience for users of Microsoft's ContractBot, which assists users of Microsoft's internal legal services
+      * Use NLP and Cognitive Services to improve ContractBot's ability to answer legal questions
+    technologies_used: |
+      .NET, Python, Natural language processing, Azure App Service, Azure Bot Service, HTML/CSS/Javascript
 
 publications:
   - title: Random title of paper. An interesting one.
@@ -82,25 +140,10 @@ publications:
     authors: John E. Doe
     conference: Some conference again, 2018
 
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
 # Volunteering
 volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - time: 2019-2021
+    role: Volunteer Teaching Assistant/Class Consultant
+    company: Microsoft TEALS Program
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Worked with educators at the Kansas State School for the Blind to develop an AP Computer Science curriculum in Java tailored for blind students.

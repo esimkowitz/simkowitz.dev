@@ -17,3 +17,4 @@ plugins:
 exclude:
   - docker-compose.yml
   - vendor/bundle
+
