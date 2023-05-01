@@ -5,8 +5,6 @@
     --fg-color-dark: #023b5b;
     --fg-color-body: #5e6369;
     --fg-color-title-sm: #688293;
-    --fg-color-link: #00629b;
-    --fg-color-link-hover: #00629bc7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +15,5 @@
         --fg-color-dark: #3282b8;
         --fg-color-body: rgba(187,225,250,0.75);
         --fg-color-title-sm: #688293;
-        --fg-color-link: #3282b8;
-        --fg-color-link-hover: #3282b8ca;
     }
 }

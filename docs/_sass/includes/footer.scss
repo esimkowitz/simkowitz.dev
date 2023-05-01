@@ -1,13 +1,14 @@
 .footer {
     .copyright {
         @include body-text;
-
-        a:link, a:visited {
+        a {
             text-decoration: none;
-            color: var(--fg-color-link)
-        }
-        a:hover {
-            color: var(--fg-color-link-hover)
+            padding-top: 4px;
+            padding-left: 4px;
+            @include body-text;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
