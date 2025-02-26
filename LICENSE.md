@@ -2,7 +2,7 @@
 
 ## Site content and the hosted website
 
-Copyright (c) 2023 Evan Simkowitz, All rights reserved.
+Copyright (c) 2025 Evan Simkowitz, All rights reserved.
 
 Only the content of the [data.yml](docs/_data/data.yml) file falls under this copyright, the schema for the data.yml file falls under the MIT licence below. All rights are also reserved for the website [simkowitz.dev](https://simkowitz.dev); the website may not be used for any commercial or non-commercial purposes without express written permission from Evan Simkowitz, nor may any of its content.
 
@@ -10,7 +10,7 @@ Only the content of the [data.yml](docs/_data/data.yml) file falls under this co
 
 MIT License
 
-Copyright (c) 2023 Evan Simkowitz
+Copyright (c) 2025 Evan Simkowitz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
