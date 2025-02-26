@@ -25,18 +25,17 @@
                 display: none;
             }
         }
-        @media print {
-            .career-profile {
-                .details {
-                    &.long {
-                        display: none;
-                    }
-                    &.short {
-                        display: block;
-                    }
+        .career-profile {
+            .details {
+                &.long {
+                    display: none;
+                }
+                &.short {
+                    display: block;
                 }
             }
         }
+
         .volunteering {
             display: none;
         }
