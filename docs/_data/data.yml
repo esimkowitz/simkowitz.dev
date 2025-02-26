@@ -8,9 +8,9 @@ contact:
   email:
   github: esimkowitz
   linkedin: esimkowitz
-  phone: 
-  gitlab: 
-  twitter: 
+  phone:
+  gitlab:
+  twitter:
 
 pronouns:
   - he
@@ -27,14 +27,12 @@ education:
 
 skills:
   - category: Programming
-    skill: 
+    skill:
+      - React/Typescript
+      - Go
+      - Rust
       - .NET/C#
       - Python
-      - C/C++
-      - Java
-      - Javascript
-      - Powershell
-      - Bash
   - category: Distributed systems
     skill:
       - Docker
@@ -60,21 +58,31 @@ skills:
 
 # Profile
 profile: |
-  Enthusiastic, self-motivated engineer with experience starting and leading initiatives and cutting through 
-  ambiguity. Evan's areas of focus are in distributed systems development, automation, quality engineering, 
-  and developer productivity, but he picks up new skills quickly and is eager about all areas, so long as 
-  there are challenging problems to solve! Evan is passionate about building lasting and sustainable engineering 
-  cultures, as well as nurturing and growing the next generation of talent through mentorship and recruiting efforts.
-  
-  Currently, Evan is building a distributed systems architecture to power a new applications platform that will 
-  define the next generation of Microsoft productivity solutions. He works with a growing team of engineers and PMs 
-  to ensure they have the capacity and resources to build dozens of microservices that meet the needs of many 
-  discrete product teams across the Microsoft 365 suite.
+  Enthusiastic, self-motivated engineer with years of experience taking projects from zero to one and beyond.
+  Evan is a polyglot who has worked in a variety of domains, from cloud services to desktop applications and full-stack.
+  As an empathetic person, Evan takes great joy in helping his fellow developers succeed through thoughtful tooling and
+  quality code. Evan is passionate about building lasting and sustainable engineering cultures, as well as nurturing and
+  growing the next generation of talent through mentorship and recruiting efforts.
+
+  Most recently, Evan has been a founding member of Wave Terminal, a new approach to the terminal experience that aims to
+  bring the power of the web to the terminal. Evan has been responsible for the architecture and infrastructure of the project,
+  scaling the app from a Mac-only prototype to a cross-platform application with a growing user base. Evan has also worked across
+  the stack to deliver many high-impact features and tools to improve the developer experience.
 
 # Experience
 experience:
+  - role: Founding Engineer
+    time: 2023 - Present
+    company: Wave Terminal
+    details: |
+      * Led a tech stack and infrastructure overhaul to support cross-platform development
+      * Delivered high-impact features such as a flexible layout system, remote file management, and persistent workspaces
+      * Led initiatives to improve code quality and security through automation and self-hosted tooling
+      * Featured as a trending developer on GitHub for contributions to the project
+    technologies_used: |
+      React, Typescript, Go, CI/CD, AWS, Generative AI
   - role: Software Engineer II
-    time: 2021 - Present
+    time: 2021 - 2023
     company: Microsoft - Microsoft 365 Platform
     details: |
       * Day one member, prototyped initial service architecture for new application platform
@@ -82,9 +90,9 @@ experience:
       * Fill in feature gaps in network security and build/deployment systems using off-the-shelf, open-source components
       * Define live-site procedures, perform security and privacy assessments, define priorities for org-wide k8s and Linux development
       * Recruit and interview prospective hires, mentor new hires and interns
-    technologies_used: | 
+    technologies_used: |
       .NET, Kubernetes, Docker, Network security, Project management, CI/CD, Azure
-  
+
   - role: Software Engineer
     time: 2019 - 2021
     company: Microsoft - Azure IoT Hub
@@ -92,54 +100,8 @@ experience:
       * Investigate and address gaps in our service reliability and alerting and develop solutions to address them
       * Work across Microsoft to find opportunities to improve our development lifecycle and customer support experience
       * Perform live-site duties and investigate failures across a rapidly expanding service
-    technologies_used: | 
+    technologies_used: |
       .NET, Javascript, Monitoring/alerting, Service Fabric, CI/CD
-
-  - role: Reasearch Assistant
-    time: 2017 - 2018
-    company: Washington University in St. Louis - Cyber-Physical Systems Laboratory
-    details: |
-      Developed the following for a multi-year research grant studying post-surgery infection rates in lung transplant patients:
-      * Design the IT infrastructure and Android application to support data collection
-      * Automate regression analysis on home spirometry data to identify post-surgery infections
-      
-      Developed the following for a study on elderly patient fall risks in nursing homes:
-      * a scalable cloud infrastructure for receiving and storing wearable sensor data
-      * an Android Wear app to collect sensor data
-      * a portal for viewing data and insights
-    technologies_used: |
-      AWS, Python, Android, Java, Sensor analysis, Data science
-
-  - role: Head Teaching Assistant
-    time: 2016 - 2018
-    company: Washington University in St. Louis
-    details: |
-      * Coordinate the schedules and hiring of 15+ TAs, host weekly meetings with TAs to train them on new material, how to be effective aids to students, etc.
-      * Oversee the lab component of a course with 150+ enrolled students
-      * Assist to review and grade students' weekly assignments, compile two weekly quizzes, answer student questions
-      * Gather feedback from past TAs and students to improve the instruction of designing embedded systems with Arduino and Java
-    technologies_used: |
-      Technical education, Project management, C/C++, Arduino, Python, Scripting
-
-  - role: Software Engineering Intern
-    time: 2018
-    company: Microsoft - Corporate Functions Engineering - Corporate, External, & Legal Affairs
-    details: |
-      * Improve the experience for users of Microsoft's ContractBot, which assists users of Microsoft's internal legal services
-      * Use NLP and Cognitive Services to improve ContractBot's ability to answer legal questions
-    technologies_used: |
-      .NET, Python, Natural language processing, Azure App Service, Azure Bot Service, HTML/CSS/Javascript
-
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
 
 # Volunteering
 volunteering:

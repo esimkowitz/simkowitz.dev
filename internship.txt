@@ -1,0 +1,35 @@
+# Removed for now for conciseness
+
+  - role: Reasearch Assistant
+    time: 2017 - 2018
+    company: Washington University in St. Louis - Cyber-Physical Systems Laboratory
+    details: |
+      Developed the following for a multi-year research grant studying post-surgery infection rates in lung transplant patients:
+      * Design the IT infrastructure and Android application to support data collection
+      * Automate regression analysis on home spirometry data to identify post-surgery infections
+
+      Developed the following for a study on elderly patient fall risks in nursing homes:
+      * a scalable cloud infrastructure for receiving and storing wearable sensor data
+      * an Android Wear app to collect sensor data
+      * a portal for viewing data and insights
+    technologies_used: |
+      AWS, Python, Android, Java, Sensor analysis, Data science
+  - role: Head Teaching Assistant
+    time: 2016 - 2018
+    company: Washington University in St. Louis
+    details: |
+      * Coordinate the schedules and hiring of 15+ TAs, host weekly meetings with TAs to train them on new material, how to be effective aids to students, etc.
+      * Oversee the lab component of a course with 150+ enrolled students
+      * Assist to review and grade students' weekly assignments, compile two weekly quizzes, answer student questions
+      * Gather feedback from past TAs and students to improve the instruction of designing embedded systems with Arduino and Java
+    technologies_used: |
+      Technical education, Project management, C/C++, Arduino, Python, Scripting
+
+  - role: Software Engineering Intern
+    time: 2018
+    company: Microsoft - Corporate Functions Engineering - Corporate, External, & Legal Affairs
+    details: |
+      * Improve the experience for users of Microsoft's ContractBot, which assists users of Microsoft's internal legal services
+      * Use NLP and Cognitive Services to improve ContractBot's ability to answer legal questions
+    technologies_used: |
+      .NET, Python, Natural language processing, Azure App Service, Azure Bot Service, HTML/CSS/Javascript
