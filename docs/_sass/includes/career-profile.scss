@@ -4,5 +4,11 @@
     }
     .details {
         @include body-text;
+        &.long {
+            display: block;
+        }
+        &.short {
+            display: none;
+        }
     }
 }

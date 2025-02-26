@@ -1,7 +1,14 @@
-{% assign profile = site.data.data.profile %}
-{% if profile %}
+{% assign profile = site.data.data.profile %} {% assign profile_short =
+site.data.data.profile_short %} {% if profile_short or profile %}
 <section class="career-profile">
     <h2 class="title">Summary</h2>
+    {% if profile and profile_short %}
+    <div class="details long">{{profile | markdownify}}</div>
+    <div class="details short">{{profile_short | markdownify}}</div>
+    {% elsif profile %}
     <div class="details">{{profile | markdownify}}</div>
+    {% else %}
+    <div class="details">{{profile_short | markdownify}}</div>
+    {% endif %}
 </section>
 {% endif %}

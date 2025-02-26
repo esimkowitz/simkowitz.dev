@@ -1,5 +1,5 @@
 * {
-    font-family: 'Times New Roman', serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.5;
 }
 
@@ -10,16 +10,14 @@ body {
 .container {
     max-width: 900px;
     min-height: 900px;
-    margin: 0 auto;
+    margin: 30px auto;
     background-color: var(--bg-color-cv);
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    padding:30px;
-    margin-top:30px;
-    margin-bottom: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
     .container-block {
         width: 90%;
         margin: 0 auto;
-        padding:20px;
+        padding: 20px;
         display: grid;
         grid-template-columns: 2fr 5fr;
         .sidebar {

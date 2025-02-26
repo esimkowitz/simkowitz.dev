@@ -1,21 +1,50 @@
 @media print {
     @page {
-        size: A4;
+        size: Letter;
+        margin: 25px;
     }
     .container {
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
         box-shadow: none;
         background-color: #ffffff;
         width: 1000px;
         .container-block {
-            padding:0;
-            
+            width: 100%;
+            padding: 0;
+            margin: 0;
         }
         .header {
-            input, label {
+            h1 {
+                margin: 0;
+            }
+            width: 100%;
+            margin: 0;
+            input,
+            label {
                 display: none;
             }
+        }
+        @media print {
+            .career-profile {
+                .details {
+                    &.long {
+                        display: none;
+                    }
+                    &.short {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .volunteering {
+            display: none;
+        }
+        .footer {
+            display: none;
+        }
+        .contact {
+            display: none;
         }
     }
 }

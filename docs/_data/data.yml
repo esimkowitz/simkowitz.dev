@@ -68,6 +68,13 @@ profile: |
   scaling the app from a Mac-only prototype to a cross-platform application with a growing user base. Evan has also worked across
   the stack to deliver many high-impact features and tools to improve the developer experience.
 
+profile_short: |
+  Enthusiastic, self-motivated engineer with years of experience taking projects from zero to one and beyond.
+  Evan is a polyglot who has worked in a variety of domains, from cloud services to desktop applications and full-stack.
+  As an empathetic person, Evan takes great joy in helping his fellow developers succeed through thoughtful tooling and
+  quality code. Evan is passionate about building lasting and sustainable engineering cultures, as well as nurturing and
+  growing the next generation of talent through mentorship and recruiting efforts.
+
 # Experience
 experience:
   - role: Founding Engineer
