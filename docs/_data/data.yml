@@ -85,6 +85,8 @@ experience:
       * Delivered high-impact features such as a flexible layout system, remote file management, and persistent workspaces
       * Led initiatives to improve code quality and security through automation and self-hosted tooling
       * Featured as a trending developer on GitHub for contributions to the project
+      *	Collaborate with Testdriver on AI regression testing for desktop apps
+      *	Contributed 30+ times to open-source dependencies within a year
     technologies_used: |
       React, Typescript, Go, CI/CD, AWS, Generative AI
   - role: Software Engineer II
