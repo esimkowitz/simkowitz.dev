@@ -27,11 +27,18 @@ education:
 skills:
   - category: Programming
     skill:
-      - React/Typescript
-      - Go
       - Rust
-      - .NET/C#
+      - Go
+      - React/Typescript
       - Python
+      - .NET/C#
+  - category: Embedded systems
+    skill:
+      - Rust
+      - Embassy
+      - C/C++
+      - Yocto/OpenEmbedded
+      - Beckhoff TwinCAT
   - category: Distributed systems
     skill:
       - Docker
@@ -57,28 +64,42 @@ skills:
 
 # Profile
 profile: |
-  Enthusiastic, self-motivated engineer with years of experience taking projects from zero to one and beyond.
-  Evan is a polyglot who has worked in a variety of domains, from cloud services to desktop applications and full-stack.
-  As an empathetic person, Evan takes great joy in helping his fellow developers succeed through thoughtful tooling and
-  quality code. Evan is passionate about building lasting and sustainable engineering cultures, as well as nurturing and
-  growing the next generation of talent through mentorship and recruiting efforts.
+  Enthusiastic, self-motivated computer engineer with years of experience taking projects from zero to one and
+  beyond. Evan got his start building cyber-physical systems, writing sensor and wearable software in a university
+  research lab and teaching embedded design to undergraduates. He spent the years after that in cloud services and
+  desktop applications, and has since come back to firmware. As an empathetic person, Evan takes great joy in helping
+  his fellow developers succeed through thoughtful tooling and quality code. Evan is passionate about building
+  lasting and sustainable engineering cultures, as well as nurturing and growing the next generation of talent
+  through mentorship and recruiting efforts.
 
-  Most recently, Evan has been a founding member of Wave Terminal, a new approach to the terminal experience that aims to
-  bring the power of the web to the terminal. Evan has been responsible for the architecture and infrastructure of the project,
-  scaling the app from a Mac-only prototype to a cross-platform application with a growing user base. Evan has also worked across
-  the stack to deliver many high-impact features and tools to improve the developer experience.
+  Evan is currently a founding team member at Vale Matcha, where he leads software and firmware development for a
+  new line of mix-on-demand matcha vending machines. He writes the embedded Rust that runs on the machines, designs
+  the distributed control system alongside mechanical and electrical engineers, and builds the cloud platform that
+  monitors the fleet and ships firmware updates to it.
 
 profile_short: |
-  Enthusiastic, self-motivated engineer with years of experience taking projects from zero to one and beyond.
-  Evan is a polyglot who has worked in a variety of domains, from cloud services to desktop applications and full-stack.
-  As an empathetic person, Evan takes great joy in helping his fellow developers succeed through thoughtful tooling and
-  quality code. Evan is passionate about building lasting and sustainable engineering cultures, as well as nurturing and
-  growing the next generation of talent through mentorship and recruiting efforts.
+  Enthusiastic, self-motivated computer engineer with years of experience taking projects from zero to one and
+  beyond. Evan got his start building cyber-physical systems, spent the years after that in cloud services and
+  desktop applications, and has since come back to firmware, leading control systems development for connected
+  machines. As an empathetic person, Evan takes great joy in helping his fellow developers succeed through
+  thoughtful tooling and quality code. Evan is passionate about building lasting and sustainable engineering
+  cultures, as well as nurturing and growing the next generation of talent through mentorship and recruiting efforts.
 
 # Experience
 experience:
+  - role: Senior Control Systems Engineer
+    time: 2025 - Present
+    company: Vale Matcha
+    details: |
+      * Founding team member, lead software/firmware development for a new line of mix-on-demand matcha vending machines
+      * Work with mechanical and electrical engineers to design and implement a distributed control system for the machines
+      * Lead the development of a new cloud-based platform for managing and monitoring the machines, including remote diagnostics and firmware updates
+      * Design quality control and testing procedures for the machines, including automated testing and data collection
+      * Lead integrator and technician for existing and new machines, including troubleshooting and repair of mechanical, electrical, and software issues
+    technologies_used: |
+      Rust, Embassy, Python, Yocto, Beckhoff TwinCAT, MQTT, AWS, CI/CD
   - role: Founding Engineer
-    time: 2023 - Present
+    time: 2023 - 2025
     company: Wave Terminal
     details: |
       * Led a tech stack and infrastructure overhaul to support cross-platform development
@@ -110,6 +131,32 @@ experience:
       * Perform live-site duties and investigate failures across a rapidly expanding service
     technologies_used: |
       .NET, Javascript, Monitoring/alerting, Service Fabric, CI/CD
+
+# Early Career
+early_experience:
+  - role: Research Assistant
+    time: 2017 - 2018
+    company: Washington University in St. Louis - Cyber-Physical Systems Laboratory
+    details: |
+      * Built the data collection infrastructure and Android application for a multi-year study on post-surgery infection rates in lung transplant patients, including automated regression analysis on home spirometry data
+      * Built cloud infrastructure, an Android Wear app, and a data portal for a study on fall risks among elderly patients in nursing homes
+    technologies_used: |
+      AWS, Python, Android, Java, Sensor analysis, Data science
+  - role: Head Teaching Assistant
+    time: 2016 - 2018
+    company: Washington University in St. Louis
+    details: |
+      * Coordinated scheduling and hiring for 15+ TAs and oversaw the lab component of a course with 150+ enrolled students
+      * Taught embedded systems design with Arduino and Java, refining instruction from past TA and student feedback
+    technologies_used: |
+      Technical education, Project management, C/C++, Arduino, Python, Scripting
+  - role: Software Engineering Intern
+    time: 2018
+    company: Microsoft - Corporate Functions Engineering
+    details: |
+      * Improved Microsoft's internal ContractBot, using NLP and Cognitive Services to expand the range of legal questions it could answer
+    technologies_used: |
+      .NET, Python, Natural language processing, Azure Bot Service
 
 # Volunteering
 volunteering:
