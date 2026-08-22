@@ -1,6 +1,6 @@
 # simkowitz.dev
 
-[![pages-build-deployment](https://github.com/esimkowitz/simkowitz.dev/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/esimkowitz/simkowitz.dev/actions/workflows/pages/pages-build-deployment)
+[![Deploy site to Pages](https://github.com/esimkowitz/simkowitz.dev/actions/workflows/pages.yml/badge.svg)](https://github.com/esimkowitz/simkowitz.dev/actions/workflows/pages.yml)
 
 Personal site
 
