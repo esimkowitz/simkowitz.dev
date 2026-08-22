@@ -10,9 +10,16 @@ theme_skin: blue
 sass:
   sass_dir: _sass
   style: compressed
+  sourcemap: never # Jekyll 4 would otherwise emit an unreferenced main.css.map
 
 plugins:
     - jekyll-minifier
+
+jekyll-minifier:
+  # robots.txt has front matter, so it is a Jekyll::Page and gets routed through the
+  # HTML compressor, which collapses the newline between the directives.
+  exclude:
+    - 'robots.txt'
 
 exclude:
   - .sass-cache/
