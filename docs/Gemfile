@@ -8,3 +8,9 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
+
+# CI only: validates the built site in _site for broken internal links and
+# malformed HTML. Not needed to build or serve the site locally.
+group :test do
+    gem "html-proofer", "~> 5.0"
+end

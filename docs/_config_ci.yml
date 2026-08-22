@@ -1,0 +1,14 @@
+# CI-only overlay, layered on top of _config.yml:
+#   bundle exec jekyll build --config _config.yml,_config_ci.yml
+#
+# Turns Sass deprecation warnings into hard build failures so a regression
+# fails the PR instead of quietly accumulating in the deploy log. Jekyll
+# merges `sass` as a whole key, so the settings from _config.yml are
+# repeated here -- omitting them would silently drop them.
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+  verbose: true # list every deprecation instead of collapsing repeats
+  fatal_deprecations:
+    - import
