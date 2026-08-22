@@ -1,0 +1,11 @@
+@use "../mixins" as m;
+
+.pronouns {
+    margin-bottom: 20px;
+    .title {
+        @include m.sub-header;
+    }
+    .pronoun-list {
+        @include m.body-text;
+    }
+}

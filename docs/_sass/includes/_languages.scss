@@ -1,0 +1,11 @@
+@use "../mixins" as m;
+
+.languages {
+    margin-bottom: 20px;
+    .title {
+        @include m.sub-header;
+    }
+    .idiom {
+        @include m.body-text;
+    }
+}

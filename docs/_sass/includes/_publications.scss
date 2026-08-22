@@ -1,6 +1,8 @@
+@use "../mixins" as m;
+
 .publications {
     .title {
-        @include header;
+        @include m.header;
     }
     .publication-items {
         .publication-item {
@@ -9,14 +11,14 @@
                 a {
                     text-decoration: none;
                     font-weight: bold;
-                    @include body-text; 
+                    @include m.body-text; 
                 }
             }
             .authors {
-                @include body-text; 
+                @include m.body-text; 
             }
             .conference {
-                @include body-text; 
+                @include m.body-text; 
                 color: var(--fg-color-title-sm);
                 font-weight: 100;
             }

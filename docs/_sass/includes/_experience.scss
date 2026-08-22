@@ -1,0 +1,27 @@
+@use "../mixins" as m;
+
+.experiance {
+    .title {
+        @include m.header;
+    }
+    .experience-item {
+        .role {
+            @include m.sub-header;
+        }
+        .company {
+            @include m.body-text;
+            font-weight: bold;
+            .time {
+                float: right;
+                color: var(--fg-color-title-sm);
+                font-weight: 100;
+            }
+        }
+        .details {
+            @include m.body-text;
+        }
+        .technologies {
+            @include m.body-text;
+        }
+    }
+}

@@ -1,13 +1,16 @@
-.experiance {
+@use "../mixins" as m;
+
+.volunteering {
     .title {
-        @include header;
+        @include m.header;
     }
-    .experience-item {
+    .volunteering-item {
+        margin-bottom: 20px;
         .role {
-            @include sub-header;
+            @include m.sub-header;
         }
-        .company {
-            @include body-text;
+        .organization {
+            @include m.body-text;
             font-weight: bold;
             .time {
                 float: right;
@@ -16,10 +19,7 @@
             }
         }
         .details {
-            @include body-text;
-        }
-        .technologies {
-            @include body-text;
+            @include m.body-text;
         }
     }
 }
