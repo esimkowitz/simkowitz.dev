@@ -1,7 +1,9 @@
+@use "../mixins" as m;
+
 .contact {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include m.sub-header;
     }
     .contact-item {
         display: flex;
@@ -11,6 +13,6 @@
             display: inline-block;
             color: var(--fg-color);
         }
-        @include body-link;
+        @include m.body-link;
     }
 }

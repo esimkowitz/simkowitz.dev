@@ -1,6 +1,8 @@
+@use "../mixins" as m;
+
 .footer {
     .copyright {
-        @include body-text;
-        @include body-link;
+        @include m.body-text;
+        @include m.body-link;
     }
 }

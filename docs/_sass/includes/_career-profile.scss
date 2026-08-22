@@ -1,9 +1,11 @@
+@use "../mixins" as m;
+
 .career-profile {
     .title {
-        @include header;
+        @include m.header;
     }
     .details {
-        @include body-text;
+        @include m.body-text;
         &.long {
             display: block;
         }
