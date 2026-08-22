@@ -1,0 +1,18 @@
+version: 2
+updates:
+  # The Jekyll build now runs from docs/Gemfile in the Pages workflow, so gem
+  # updates here affect the deployed site rather than just local previews.
+  - package-ecosystem: bundler
+    directory: /docs
+    schedule:
+      interval: weekly
+    # Let a release settle before proposing it.
+    cooldown:
+      default-days: 7
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
